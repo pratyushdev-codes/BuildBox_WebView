@@ -33,7 +33,7 @@ export default function Sidebar() {
   ]
 
   return (
-    <div className="fixed left-4 top-4 bottom-4 w-64 bg-neutral-900 rounded-lg shadow-xl border border-neutral-800 flex flex-col">
+    <div className="fixed left-4 top-4 bottom-4 w-64 bg-neutral-900 rounded-lg shadow-xl border border-neutral-800 flex flex-col  hidden lg:flex">
       <div className="flex-1 p-2">
         {menuItems.map((item) => (
           <button
